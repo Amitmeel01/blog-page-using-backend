@@ -1,0 +1,40 @@
+body{
+  background: rgba(255, 166, 0, 0.534);
+  text-align: center;
+  
+}
+
+textarea{
+  width: 600px;
+  height: 60vh;
+  font-size: 1rem;
+  background: transparent;
+  font-weight: bold;
+  letter-spacing: 2px;
+  font-family: sans-serif;
+  resize: none;
+  padding: 2rem;
+  
+}
+textarea::-webkit-scrollbar{
+  display: none;
+}
+form{
+  background: transparent;
+}
+h2{
+  background: transparent;
+  color: white;
+  font-weight: bold;
+}
+h1{
+  background: transparent;
+  font-size: 2rem;
+}
+button{
+  background: blue;
+  padding: 0.5rem;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}

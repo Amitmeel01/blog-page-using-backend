@@ -1,0 +1,114 @@
+*{
+  background: pink;
+  
+}
+h1{
+  text-align: center;
+  font-size: 4rem;
+}
+.post{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  border: 1px solid black;
+  
+  width: 600px;
+  height: 70vh;
+  text-align: center;
+  margin-top: 2rem;
+  flex-wrap: wrap;
+  transform: translate(0%);
+  background: aqua;
+  padding: 3rem;
+  
+  
+  
+  
+}
+h2{
+  position: absolute;
+  top: -1.5rem;
+  left: 15rem;
+  font-weight: bold;
+  font-size: 2rem;
+  background: transparent;
+  margin: 2rem;
+}
+p,a,form,button{
+  background: transparent;
+  text-decoration: none;
+}
+button a{
+  color: red;
+  font-weight: bold;
+  font-size: 1rem;
+  
+}
+
+.posts{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+button{
+  padding: 1rem;
+  width: 70px;
+ line-height: 0rem;
+  text-align: center;
+
+}
+.btns ,.btns form button{
+  background: transparent;
+  display: flex;
+  gap: 2rem;
+  text-overflow: hidden;
+  white-space: nowrap;
+  cursor: pointer;
+  color: red;
+  font-weight: bold;
+  
+  
+  
+}
+.btns{
+  margin-top: 29rem;
+}
+.seePost{
+  width: 5rem;
+}
+.seePost a{
+  position: relative;
+  right: 0.6rem;
+}
+
+.createPost{
+  white-space: nowrap;
+  width: 10rem;
+  position: relative;
+  text-align: center;
+  transform: translate(250%);
+
+}
+.hobby{
+  background: transparent;
+  position: absolute;
+  left: 0;
+  letter-spacing: 0.7px;
+  font-family: sans-serif;
+
+width: 650px;
+  line-height: 1.2rem;
+  padding-left: 20px;
+  padding-right: 10px; 
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.content{
+  font-weight: bold;
+  /* overflow: wrap;
+  text-overflow: wrap; */
+  /* overflow-wrap: break-word; */
+  overflow: hidden;
+}
